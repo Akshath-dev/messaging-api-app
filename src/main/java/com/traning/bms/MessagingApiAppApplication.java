@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class MessagingApiAppApplication {
-	@GetMapping("/")
+	@GetMapping("/admin")
 	public String printGreetings() {
 		return "Hi Oracle !!";
 	}
