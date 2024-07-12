@@ -14,6 +14,7 @@ public class MessagingApiAppApplication {
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
-		System.out.println("HELLO");
+		System.out.println("HELLO ADMIN");
+		System.out.println("HELLO AKSHATH");
 	}
 }
